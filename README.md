@@ -2,7 +2,7 @@
 Proxy for real-time music re-streaming.
 
 It's stream proxy server which can be used to amplify ICY streams (commonly SHOUTcast or Icecast broadcasts).
-Now it's tested in production with Icecast as a source of stream in mp3 format. One instance can handle 1000+ concurent clients and dozens of Icacest sources on one single share VPS instance with 512MB. It's compatible with all browsers, iOS and Android devices.
+Now it's tested in production with Icecast as a source of stream in mp3 format. One instance can handle 1000+ concurent clients and dozens of Icacest sources on one single share VPS instance with 512MB. It's compatible with all browsers, iOS and Android devices. We are using it for our mobile and web app, [GYM Radio](http://www.gymradio.com).
 
 ##Installation
 
@@ -15,7 +15,7 @@ node StreamProxy.js
 Configuration is through XML file, where you have to specify streaming_port (80) and all Icecast streams that you want to proxy.
 This file has to be accessible somewhere online (HTTP server), because all your Proxy instances will use it.
 
-Do not forget to change the URL in StreamProxy.js (line 25) for accessing the XML file
+**Do not forget** to change the URL in StreamProxy.js (line 25) for accessing the XML file
 ```
 var options_proxy = {
   host: 'your address here.com',
@@ -56,8 +56,8 @@ The "API" is very simple. To access specific stream, you have to know it's ID (c
 Visit the "http://proxy_ip:proxy_port/Radio1" for accessing the "Radio1" stream from XML example.
 
 Modules used:
-* Icecast (icecast@1.3.1) https://github.com/TooTallNate/node-icy
-* xml2js (xml2js@0.4.15) https://github.com/Leonidas-from-XIV/node-xml2js
+* [Icecast](https://github.com/TooTallNate/node-icy) (icecast@1.3.1)
+* [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) (xml2js@0.4.15) 
 
 
 
