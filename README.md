@@ -55,7 +55,7 @@ The Streams array contains objects (stream) which describes the stream, which th
 The "API" is very simple. To access specific stream, you have to know it's ID (configured in XML), proxy IP and Port.
 ``` http://proxy_ip:proxy_port/id ```
 
-Visit the ``` http://proxy1.gymradio.cz/GYM0 ``` for accessing our GYM stream from the (GYM Radio)[http://www.gymradio.com].
+Visit the ``` http://proxy1.gymradio.cz/GYM0 ``` for accessing our GYM stream from the [GYM Radio](http://www.gymradio.com).
 
 
 ##Modules
