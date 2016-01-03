@@ -1,8 +1,11 @@
-# StreamProxy
+# Stream-Proxy
 Proxy for real-time music re-streaming.
 
 It's stream proxy server which can be used to amplify ICY streams (commonly SHOUTcast or Icecast broadcasts).
 Now it's tested in production with Icecast as a source of stream in mp3 format. One instance can handle 1000+ concurent clients and dozens of Icacest sources on one single share VPS instance with 512MB. It's compatible with all browsers, iOS and Android devices. We are using it for our mobile and web app, [GYM Radio](http://www.gymradio.com).
+
+###Extra Features
+Ring buffer for initial stream data boost. Player starts playing music almost immidiately and user doesn't have to wait for pre-buffering. Great user experince.
 
 ##Installation
 
