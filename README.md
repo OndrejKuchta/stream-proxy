@@ -37,7 +37,7 @@ The Streams array contains objects (stream) which describes the stream, which th
 <streams>
 
 	<stream>
-		<id>CAR1</id>
+		<id>RAD1</id>
 		<name>Radio1</name>
 		<url>http://46.28.108.97:8002</url>
 		<path>/stream</path>
@@ -45,7 +45,7 @@ The Streams array contains objects (stream) which describes the stream, which th
 	</stream>
 
 	<stream>
-		<id>CAR2</id>
+		<id>RAD2</id>
 		<name>Radio2</name>
 		<url>http://46.28.108.97:8004</url>
 		<path>/stream</path>
