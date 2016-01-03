@@ -62,6 +62,11 @@ The request is very simple. To access specific stream, you have to know it's ID 
 
 Visit the ``` http://proxy1.gymradio.cz/GYM1 ``` for accessing our GYM stream from the [GYM Radio](http://www.gymradio.com).
 
+##Reading proxy status
+There are 2 endpoints for reading basic status.
+
+``` http://proxy_ip:proxy_port/running ``` - just check if the proxy works. It returns true or false.
+``` http://proxy_ip:proxy_port/stats ``` - this returns also number of currently connected clients and basic info about every stream.
 
 ##Modules
 * [Icecast](https://github.com/TooTallNate/node-icy) (icecast@1.3.1)
