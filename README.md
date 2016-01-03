@@ -11,7 +11,7 @@ npm install
 node StreamProxy.js
 ```
 
-##Configuration (XML)
+##Configuration
 Configuration is through XML file, where you have to specify streaming_port (80) and all Icecast streams that you want to proxy.
 This file has to be accessible somewhere online (HTTP server), because all your Proxy instances will use it.
 
