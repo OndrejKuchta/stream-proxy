@@ -1,5 +1,5 @@
 # Stream-Proxy
-Proxy for real-time music re-streaming. :loudspeaker:
+Proxy for real-time music re-streaming. :radio:
 
 Stream proxy server which can be used to amplify ICY streams (commonly SHOUTcast or Icecast broadcasts).
 It's tested in production with Icecast as a source of stream (Centova Cast) in mp3 format. One instance can handle 1000+ concurent clients and dozens of Icacest sources on one single shared VPS instance with 512MB. It's compatible with all browsers, iOS and Android devices. We are using it for our mobile and web app, [GYM Radio](http://www.gymradio.com).
