@@ -3,103 +3,20 @@
 <streams>
 
 	<stream>
-		<id>CAR0</id>
-		<name>Cardio0</name>
+		<id>RAD1</id>
+		<name>Radio1</name>
 		<url>http://46.28.108.97:8000</url>
 		<path>/stream</path>
 		<port>8000</port>
 	</stream>
 
 	<stream>
-		<id>CAR</id>
-		<name>Cardio0</name>
-		<url>http://46.28.108.97:8000</url>
-		<path>/stream</path>
-		<port>8000</port>
-	</stream>
-
-	<stream>
-		<id>CAR1</id>
-		<name>Cardio1</name>
-		<url>http://46.28.108.97:8002</url>
-		<path>/stream</path>
-		<port>8002</port>
-	</stream>
-
-	<stream>
-		<id>CAR2</id>
-		<name>Cardio2</name>
-		<url>http://46.28.108.97:8004</url>
-		<path>/stream</path>
-		<port>8004</port>
-	</stream>
-
-
-
-	<stream>
-		<id>GYM0</id>
-		<name>Gym0</name>
-		<url>http://46.28.108.97:8003</url>
-		<path>/stream</path>
-		<port>8003</port>
-	</stream>
-
-	<stream>
-		<id>GYM</id>
-		<name>Gym0</name>
-		<url>http://46.28.108.97:8003</url>
-		<path>/stream</path>
-		<port>8003</port>
-	</stream>
-
-	<stream>
-		<id>GYM1</id>
-		<name>Gym1</name>
-		<url>http://46.28.108.97:8005</url>
-		<path>/stream</path>
-		<port>8005</port>
-	</stream>
-
-	<stream>
-		<id>GYM2</id>
-		<name>Gym2</name>
-		<url>http://46.28.108.97:8006</url>
-		<path>/stream</path>
-		<port>8006</port>
-	</stream>
-
-	<stream>
-		<id>HC0</id>
-		<name>Hardcore0</name>
+		<id>RAD2</id>
+		<name>Radio2</name>
 		<url>http://46.28.108.97:8001</url>
 		<path>/stream</path>
 		<port>8001</port>
 	</stream>
-
-	<stream>
-		<id>HC</id>
-		<name>Hardcore0</name>
-		<url>http://46.28.108.97:8001</url>
-		<path>/stream</path>
-		<port>8001</port>
-	</stream>
-
-	<stream>
-		<id>HC1</id>
-		<name>Hardcore1</name>
-		<url>http://46.28.108.97:8007</url>
-		<path>/stream</path>
-		<port>8007</port>
-	</stream>
-
-	<stream>
-		<id>HC2</id>
-		<name>Hardcore2</name>
-		<url>http://46.28.108.97:8008</url>
-		<path>/stream</path>
-		<port>8008</port>
-	</stream>
-
 
 </streams>
 </proxy_settings>
