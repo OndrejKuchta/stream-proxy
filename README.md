@@ -51,11 +51,12 @@ The Streams array contains objects (stream) which describes the stream, which th
 </proxy_settings>
 ```
 
-##How to connect to the Proxy.
+##How to connect clients.
 The "API" is very simple. To access specific stream, you have to know it's ID (configured in XML).
-Visit the "http://proxy_ip:proxy_port/Radio1" for accessing the "Radio1" stream from XML example.
+Visit the ```http://proxy_ip:proxy_port/Radio1``` for accessing the "Radio1" stream from XML example.
 
-Modules used:
+
+##Modules
 * [Icecast](https://github.com/TooTallNate/node-icy) (icecast@1.3.1)
 * [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) (xml2js@0.4.15) 
 
