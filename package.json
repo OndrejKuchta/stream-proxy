@@ -1,0 +1,9 @@
+{
+  "name": "StreamProxy",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "icecast": "*",
+    "xml2js": "*"
+  }
+}
