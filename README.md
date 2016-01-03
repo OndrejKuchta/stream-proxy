@@ -16,7 +16,7 @@ node StreamProxy.js
 
 ##Configuration
 Configuration is through XML file, where you have to specify streaming_port (80) and all Icecast streams that you want to proxy.
-This file has to be accessible somewhere online (HTTP server), because all your Proxy instances will use it.
+This file has to be accessible somewhere online (HTTP server), because all your proxy instances will use it.
 
 **Do not forget** to change the URL in StreamProxy.js (line 25) for accessing the XML file
 ```
@@ -27,7 +27,7 @@ var options_proxy = {
 ```
 
 The XML file has 2 main nodes, one is streaming_port, which you have to set to desired number, prefered is 80.
-The Streams array contains objects (stream) which describes the stream, which the Proxy server will connect to. The "id" tag is very important to be unique, because clients are accessing the streams using this "id" as a parameter for the request.
+The Streams array contains objects (stream) which describes the stream, which the proxy server will connect to. The "id" tag is very important to be unique, because clients are accessing the streams using this "id" as a parameter for the request.
 
 ```
 <proxy_settings>
@@ -54,8 +54,8 @@ The Streams array contains objects (stream) which describes the stream, which th
 </proxy_settings>
 ```
 
-##How to connect clients.
-The "API" is very simple. To access specific stream, you have to know it's ID (configured in XML), proxy IP and Port.
+##Connecting to the proxy
+The request is very simple. To access specific stream, you have to know it's ID (configured in XML), proxy IP and port.
 ``` http://proxy_ip:proxy_port/id ```
 
 Visit the ``` http://proxy1.gymradio.cz/GYM0 ``` for accessing our GYM stream from the [GYM Radio](http://www.gymradio.com).
