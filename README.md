@@ -13,7 +13,7 @@ Ring buffer for initial stream data boost. Player starts playing music almost im
 npm install
 node StreamProxy.js
 ```
-But i strongly recommend using the [Forever](https://github.com/foreverjs/forever) for running this in production.
+But I strongly recommend using the [Forever](https://github.com/foreverjs/forever) for running this in production.
 
 
 ##Configuration
