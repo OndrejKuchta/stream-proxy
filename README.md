@@ -57,9 +57,8 @@ The Streams array contains objects (stream) which describes the stream, which th
 ```
 
 ##Connecting to the proxy
-The request is very simple. To access specific stream, you have to know it's ID (configured in XML), proxy IP and port.
+To access specific stream, you have to know it's ID (configured in XML), proxy IP and port.
 ``` http://proxy_ip:proxy_port/stream_id ```
-
 Visit the ``` http://proxy1.gymradio.cz/GYM1 ``` for accessing our GYM stream from the [GYM Radio](http://www.gymradio.com).
 
 ##Reading proxy status
