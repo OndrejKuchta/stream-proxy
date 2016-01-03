@@ -13,6 +13,8 @@ Ring buffer for initial stream data boost. Player starts playing music almost im
 npm install
 node StreamProxy.js
 ```
+But i strongly recommend using the [Forever](https://github.com/foreverjs/forever) for running this in production.
+
 
 ##Configuration
 Configuration is through XML file, where you have to specify streaming_port (80) and all Icecast streams that you want to proxy.
