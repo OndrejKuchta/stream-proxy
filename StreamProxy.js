@@ -23,7 +23,7 @@ global.xmlDataStore = "GlobalXML";
 
 //XML streaming servers list
 var options_proxy = {
-  host: 'gymxml.gymradio.cz',
+  host: 'your address here.com',
   path: '/proxy/proxy.xml'
 };
 
@@ -124,15 +124,6 @@ server.on('request', function(req, res) {
     res.end();
   }
 
-      //Compatibility check (old versions are using GYM instead of GYM0)
-        if(params.streamid == 'GYM') {
-          params.streamid = 'GYM0';
-        } else if(params.streamid == 'HC'){
-          params.streamid = 'HC0';
-        } else if(params.streamid == 'CAR'){
-          params.streamid = 'CAR0';
-        }
-
 
     //Does requested stream exist?
     if( checkStreamId(params.streamid ) ){
@@ -144,7 +135,6 @@ server.on('request', function(req, res) {
         res['streamid'] = params.streamid;
 
         //Write the correct HTTP response head
-
         delete icy_header[params.streamid]['icy-metaint'];
         res.writeHead(200,'OK',icy_header[params.streamid]);
 
